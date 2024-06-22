@@ -1,0 +1,41 @@
+/* 
+CSS Universal selector : *
+This selects everything
+*/
+
+
+
+body {
+    font-size: 22px;
+}
+
+h1, h2 { 
+    color: blue;
+}
+/* 
+h1 h2 = Here it means h2 nested inside h1
+*/
+
+.gray {
+    color: gray;
+}
+
+
+p {
+    color: purple;
+}
+p {
+    color: red;
+}
+
+.highlight  {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+
+/* ID should be unique means it should exist only once 
+We try to keep ids out of css */
+#second {
+    font-style: italic;
+}
